@@ -1,9 +1,9 @@
-
+import './style.scss';
 
 export function Home() {
 	return (
 		<main>
-			<p>Start</p>
+			<p class="large">Start</p>
 		</main>
 	);
 }

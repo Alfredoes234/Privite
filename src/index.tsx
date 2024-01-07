@@ -10,7 +10,7 @@ export function App() {
 	return (
 		<LocationProvider>
 			<Header />
-			<main className="m-5">
+			<main>
 				<Router>
 					<Route path="/" component={Home} />
 					<Route default component={NotFound} />
