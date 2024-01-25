@@ -4,6 +4,7 @@ import { LocationProvider, Router, Route } from 'preact-iso';
 import { Header } from './components/Header/Header';
 import { Home } from './pages/Home/index';
 import { NotFound } from './pages/_404';
+import { Footer } from './components/Footer/Footer';
 import './global.css';
 
 export function App() {
@@ -16,6 +17,7 @@ export function App() {
 					<Route default component={NotFound} />
 				</Router>
 			</main>
+			<Footer />
 		</LocationProvider>
 	);
 }
