@@ -1,10 +1,10 @@
 import { render } from 'preact';
 import { LocationProvider, Router, Route } from 'preact-iso';
 
-import { Header } from './components/Header/Header.js';
-import { Home } from './pages/Home/index.jsx';
-import { NotFound } from './pages/_404.jsx';
-import './global.scss';
+import { Header } from './components/Header/Header';
+import { Home } from './pages/Home/index';
+import { NotFound } from './pages/_404';
+import './global.css';
 
 export function App() {
 	return (
@@ -20,4 +20,4 @@ export function App() {
 	);
 }
 
-render(<App />, document.getElementById('app'));
+render(<App />, document.getElementById('root'));
