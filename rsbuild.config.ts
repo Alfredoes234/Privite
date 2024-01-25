@@ -5,7 +5,7 @@ import { RsdoctorRspackPlugin } from '@rsdoctor/rspack-plugin';
 export default defineConfig({
     plugins: [pluginPreact()],
     html: {
-        title: 'Privite',
+        favicon: './public/vite.svg',
     },
     source: {
         entry: {

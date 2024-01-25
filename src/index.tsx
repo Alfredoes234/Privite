@@ -1,5 +1,6 @@
 import { render } from 'preact';
 import { LocationProvider, Router, Route } from 'preact-iso';
+import Helmet from "preact-helmet";
 
 import { Header } from './components/Header/Header';
 import { Home } from './pages/Home/index';
@@ -10,6 +11,7 @@ import './global.css';
 export function App() {
 	return (
 		<LocationProvider>
+			<Helmet titleTemplate="Preact | %s" htmlAttributes={{ lang: "en", amp: undefined }} />
 			<Header />
 			<main>
 				<Router>

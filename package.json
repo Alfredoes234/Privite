@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "preact": "^10.13.1",
+    "preact-helmet": "4.0.0-alpha-3",
     "preact-iso": "^2.3.2",
     "preact-render-to-string": "^6.3.1"
   },
