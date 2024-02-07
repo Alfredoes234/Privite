@@ -13,6 +13,9 @@ export default defineConfig({
         }
     },
     server: {
+        publicDir: {
+            name: './public',
+        },
     },
     tools: {
         rspack(config, { appendPlugins }) {
